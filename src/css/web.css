@@ -1,0 +1,154 @@
+@import "./error.css";
+@import "./inputs.css";
+
+* {
+  list-style: none;
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.hero  {
+  background-color:#dbdbdb;
+}
+section.is-fullheight {
+  border:8px solid;
+}
+
+/****************************************  fonts  */
+h1 {
+  font-family:Myfont , Helvetica, Arial, Sans-Serif;
+}
+
+h2 , h3 , h4 , h5 , h6 , ul li a {font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;}
+
+p { font-family: Helvetica, Arial, Sans-Serif;font-weight:normal;}
+
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+  background:#ebebeb;
+
+}
+
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 2rem;
+  padding:24px !important;
+}
+
+.box-sz-2 {
+  width:600px !important;
+}
+
+input {
+  font-weight: 300;
+  margin:0 0 10px 0;
+}
+p {
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+
+div.header-text-msg {
+  padding:20px 0 0 0;
+}
+h1 {
+  line-height:30px;
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align:center;
+  font-size:23px !important;
+  color:#3770a6;
+}
+
+.submit_btn {
+  background: #a30000;
+  color:#FFF;
+}
+
+.submit_btn:hover {
+  color:#FFF;
+  background: #bc0606;
+
+}
+
+
+label {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  color: #555555;
+  font-size:18px;
+
+}
+.p_sm_1 {
+  text-align:center;
+  font-size:15px;
+  font-weight:normal;
+
+}
+.txt1{
+  padding-top:16px !important;
+  padding-bottom:10px !important;
+  padding-left:8px !important;
+  display:inline-block;
+}
+
+a.txt3  {
+
+  padding-top:0 !important;
+  padding-bottom:10px !important;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  color: #555555;
+  font-size:16px;
+  padding-left:8px !important;
+
+}
+
+a.txt3:hover  {
+  text-decoration:underline;
+  color:#941717 !important;
+}
+
+/*------------------------------------------------------------------
+
+/*---------------------------------------------*/
+
+
+.input100 {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  color: #555555;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 55px;
+  padding: 0 25px 0 25px;
+  border: 1px solid #e6e6e6;
+  border-radius:8px !important;
+}
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+
+
+
+
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+
+}

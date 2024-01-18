@@ -1,0 +1,18 @@
+
+/* --------------------   errors  */
+.error-msg {
+  clear:both;
+  color:#8e1310;
+  font-size:17px !important;
+  padding:8px !important;
+  margin:20px 0 0 0;
+  float:left;
+  font-family:Myfont, Helvetica, Arial, sans-serif;
+  display:block;
+  background: #fff9ed url(../images/arrowup.gif) no-repeat;
+  background-position:10px 12px;
+  border-radius:6px;
+  border:1px solid #f5e7cd;
+  text-indent:20px;
+  width:98% !important;
+}
